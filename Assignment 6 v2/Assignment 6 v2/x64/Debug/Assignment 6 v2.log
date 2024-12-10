@@ -1,0 +1,42 @@
+﻿  main.cpp
+E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(101,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(101,47):
+      the template instantiation context (the oldest one first) is
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(109,47):
+          see reference to class template instantiation 'HashTableTot::HashTable<std::string,int>' being compiled
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(88,14):
+          while compiling class template member function 'void HashTableTot::HashTable<std::string,int>::Remove(const KeyType &)'
+          with
+          [
+              KeyType=std::string
+          ]
+              E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(126,21):
+              see the first reference to 'HashTableTot::HashTable<std::string,int>::Remove' in 'main'
+  
+E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(82,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(82,46):
+      the template instantiation context (the oldest one first) is
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(68,19):
+          while compiling class template member function 'ValueType HashTableTot::HashTable<std::string,ValueType>::Get(const KeyType &) const'
+          with
+          [
+              ValueType=int,
+              KeyType=std::string
+          ]
+              E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(117,18):
+              see the first reference to 'HashTableTot::HashTable<std::string,int>::Get' in 'main'
+  
+E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(61,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(61,46):
+      the template instantiation context (the oldest one first) is
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(49,14):
+          while compiling class template member function 'void HashTableTot::HashTable<std::string,int>::Insert(const KeyType &,const ValueType &)'
+          with
+          [
+              KeyType=std::string,
+              ValueType=int
+          ]
+              E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(112,21):
+              see the first reference to 'HashTableTot::HashTable<std::string,int>::Insert' in 'main'
+  
+  Assignment 6 v2.vcxproj -> E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\x64\Debug\Assignment 6 v2.exe

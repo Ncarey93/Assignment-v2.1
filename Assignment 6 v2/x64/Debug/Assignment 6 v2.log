@@ -1,0 +1,43 @@
+﻿  main.cpp
+E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(116,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(106,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(106,46):
+      the template instantiation context (the oldest one first) is
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(122,9):
+          see reference to class template instantiation 'HashTableTot::HashTable<std::string,int>' being compiled
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(92,14):
+          while compiling class template member function 'void HashTableTot::HashTable<std::string,int>::Remove(const KeyType &)'
+          with
+          [
+              KeyType=std::string
+          ]
+              E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(142,25):
+              see the first reference to 'HashTableTot::HashTable<std::string,int>::Remove' in 'PerformTest'
+  
+E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(86,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(86,46):
+      the template instantiation context (the oldest one first) is
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(72,19):
+          while compiling class template member function 'ValueType HashTableTot::HashTable<std::string,ValueType>::Get(const KeyType &) const'
+          with
+          [
+              ValueType=int,
+              KeyType=std::string
+          ]
+              E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(132,22):
+              see the first reference to 'HashTableTot::HashTable<std::string,int>::Get' in 'PerformTest'
+  
+E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(65,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(65,46):
+      the template instantiation context (the oldest one first) is
+          E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(53,14):
+          while compiling class template member function 'void HashTableTot::HashTable<std::string,int>::Insert(const KeyType &,const ValueType &)'
+          with
+          [
+              KeyType=std::string,
+              ValueType=int
+          ]
+              E:\Project Files\MS549\Assignment 6 v2\Assignment 6 v2\main.cpp(122,25):
+              see the first reference to 'HashTableTot::HashTable<std::string,int>::Insert' in 'PerformTest'
+  
+  Assignment 6 v2.vcxproj -> E:\Project Files\MS549\Assignment 6 v2\x64\Debug\Assignment 6 v2.exe
